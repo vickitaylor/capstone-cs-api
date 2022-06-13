@@ -1,0 +1,76 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Bland Bay",
+      "email": "bay@bays.com",
+      "isStaff": false
+    },
+    {
+      "id": 2,
+      "name": "Ocean Tides",
+      "email": "ocean@oceans.com",
+      "isStaff": true
+    }
+  ],
+  "guides": [
+    {
+      "id": 1,
+      "userId": 2
+    }
+  ],
+  "diveSites": [
+    {
+      "id": 1,
+      "name": "Molasses Reef",
+      "price": 73.48,
+      "depth": 40,
+      "description": "Extensive reef complex that has the best collection of reefs in Florida"
+    },
+    {
+      "id": 2,
+      "name": "French Reef",
+      "price": 86.48,
+      "depth": 100,
+      "description": "Reef area with multiple ledges, tunnels, and caves."
+    },
+    {
+      "name": "Pickles Reef",
+      "price": 54.47,
+      "depth": 25,
+      "description": "Large and shallow reef with coral formed on pickle barrels.",
+      "id": 3
+    },
+    {
+      "name": "Carysfort Lighthouse",
+      "price": 78.45,
+      "depth": 80,
+      "description": "Wide variety of corals at the oldest functioning lighthouse",
+      "id": 4
+    }
+  ],
+  "diveRequest": [
+    {
+      "id": 1,
+      "userId": 2,
+      "diveSiteId": 1,
+      "date": "2022-06-13",
+      "certification": 130
+    },
+    {
+      "userId": 1,
+      "diveSiteId": 2,
+      "date": "2022-06-16",
+      "certification": 130,
+      "id": 2
+    },
+    {
+      "userId": 1,
+      "diveSiteId": 2,
+      "date": "2022-06-23",
+      "certification": 130,
+      "id": 3
+    }
+  ],
+  "assignedDives": []
+}
