@@ -2,21 +2,43 @@
   "users": [
     {
       "id": 1,
-      "name": "Bland Bay",
-      "email": "bay@bays.com",
+      "name": "Ann Chovy",
+      "email": "ann@chovy.com",
       "isStaff": false
     },
     {
       "id": 2,
       "name": "Ocean Tides",
-      "email": "ocean@oceans.com",
+      "email": "ocean@tides.com",
       "isStaff": true
+    },
+    {
+      "email": "sushi@sea.com",
+      "name": "Sushi Sea",
+      "isStaff": false,
+      "id": 3
+    },
+    {
+      "email": "phish@styx.com",
+      "name": "Phish Styx",
+      "isStaff": false,
+      "id": 4
+    },
+    {
+      "email": "james@pond.com",
+      "name": "James Pond",
+      "isStaff": true,
+      "id": 5
     }
   ],
   "guides": [
     {
       "id": 1,
       "userId": 2
+    }, 
+    {
+        "id": 2,
+        "userId": 5
     }
   ],
   "diveSites": [
@@ -47,30 +69,45 @@
       "depth": 80,
       "description": "Wide variety of corals at the oldest functioning lighthouse",
       "id": 4
+    },
+    {
+      "name": "Benwood Wreck",
+      "price": 78.48,
+      "depth": 55,
+      "description": "The ship was sunk in 1942, and bioluminescent creatures are at times seen at night. ",
+      "id": 5
     }
   ],
-  "diveRequest": [
+  "diveRequests": [
     {
-      "id": 1,
-      "userId": 2,
-      "diveSiteId": 1,
-      "date": "2022-06-13",
-      "certification": 130
-    },
-    {
-      "userId": 1,
-      "diveSiteId": 2,
-      "date": "2022-06-16",
-      "certification": 130,
-      "id": 2
-    },
-    {
-      "userId": 1,
-      "diveSiteId": 2,
-      "date": "2022-06-23",
+      "userId": 3,
+      "diveSiteId": 5,
+      "date": "2022-06-24",
       "certification": 130,
       "id": 3
+    },
+    {
+      "userId": 4,
+      "diveSiteId": 5,
+      "date": "2022-07-14",
+      "certification": 130,
+      "id": 4,
+      "comments": "need to change due to weather. and change again cause i want to "
+    },
+    {
+      "userId": 4,
+      "diveSiteId": 1,
+      "date": "2022-07-07",
+      "certification": 60,
+      "id": 5
     }
   ],
-  "assignedDives": []
+  "assignedDives": [
+    {
+        "id": 1, 
+        "guideId": 2, 
+        "diveRequestId": 3, 
+        "dateCompleted": ""
+    }
+  ]
 }
