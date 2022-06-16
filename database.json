@@ -35,10 +35,10 @@
     {
       "id": 1,
       "userId": 2
-    }, 
+    },
     {
-        "id": 2,
-        "userId": 5
+      "id": 2,
+      "userId": 5
     }
   ],
   "diveSites": [
@@ -80,34 +80,43 @@
   ],
   "diveRequests": [
     {
-      "userId": 3,
+      "userId": 1,
       "diveSiteId": 5,
-      "date": "2022-06-24",
+      "date": "2022-07-01",
       "certification": 130,
-      "id": 3
+      "comments": "date changed",
+      "completed": false,
+      "id": 1
     },
     {
-      "userId": 4,
-      "diveSiteId": 5,
-      "date": "2022-07-14",
+      "userId": 1,
+      "diveSiteId": 2,
+      "date": "2022-06-23",
       "certification": 130,
-      "id": 4,
-      "comments": "need to change due to weather. and change again cause i want to "
+      "comments": "",
+      "completed": true,
+      "id": 2
     },
     {
-      "userId": 4,
-      "diveSiteId": 1,
-      "date": "2022-07-07",
+      "userId": 1,
+      "diveSiteId": 3,
+      "date": "2022-06-16",
       "certification": 60,
-      "id": 5
+      "comments": "",
+      "completed": false,
+      "id": 3
     }
   ],
   "assignedDives": [
     {
-        "id": 1, 
-        "guideId": 2, 
-        "diveRequestId": 3, 
-        "dateCompleted": ""
+      "guideId": 1,
+      "diveRequestId": 1,
+      "id": 1
+    },
+    {
+      "guideId": 2,
+      "diveRequestId": 2,
+      "id": 2
     }
   ]
 }
