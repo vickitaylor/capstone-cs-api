@@ -29,6 +29,12 @@
       "name": "James Pond",
       "isStaff": true,
       "id": 5
+    },
+    {
+      "email": "bubble@fett.com",
+      "name": "Bubble Fett",
+      "isStaff": false,
+      "id": 6
     }
   ],
   "guides": [
@@ -76,6 +82,13 @@
       "depth": 55,
       "description": "The ship was sunk in 1942, and bioluminescent creatures are at times seen at night. ",
       "id": 5
+    },
+    {
+      "name": "a",
+      "price": 84.54,
+      "depth": 65,
+      "description": "lots of fish and coral",
+      "id": 6
     }
   ],
   "diveRequests": [
@@ -85,7 +98,7 @@
       "date": "2022-07-01",
       "certification": 130,
       "comments": "date changed",
-      "completed": false,
+      "completed": true,
       "id": 1
     },
     {
@@ -103,8 +116,26 @@
       "date": "2022-06-16",
       "certification": 60,
       "comments": "",
-      "completed": false,
+      "completed": true,
       "id": 3
+    },
+    {
+      "userId": 3,
+      "diveSiteId": 4,
+      "date": "2022-06-30",
+      "certification": 60,
+      "comments": "changed date ",
+      "completed": false,
+      "id": 4
+    },
+    {
+      "userId": 6,
+      "diveSiteId": 4,
+      "date": "2022-06-13",
+      "certification": 60,
+      "comments": "didnt want to go to pickles\n",
+      "completed": false,
+      "id": 6
     }
   ],
   "assignedDives": [
@@ -117,6 +148,21 @@
       "guideId": 2,
       "diveRequestId": 2,
       "id": 2
+    },
+    {
+      "guideId": 2,
+      "diveRequestId": 4,
+      "id": 3
+    },
+    {
+      "guideId": 2,
+      "diveRequestId": 6,
+      "id": 4
+    },
+    {
+      "guideId": 1,
+      "diveRequestId": 3,
+      "id": 5
     }
   ]
 }
