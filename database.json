@@ -8,8 +8,8 @@
     },
     {
       "id": 2,
-      "name": "Ocean Tides",
-      "email": "ocean@tides.com",
+      "name": "Tuna Turner",
+      "email": "tuna@turner.com",
       "isStaff": true
     },
     {
@@ -35,6 +35,12 @@
       "name": "Bubble Fett",
       "isStaff": false,
       "id": 6
+    },
+    {
+      "email": "swim@shady.com",
+      "name": "Swim Shady",
+      "isStaff": false,
+      "id": 7
     }
   ],
   "guides": [
@@ -53,41 +59,47 @@
       "name": "Molasses Reef",
       "price": 73.48,
       "depth": 40,
-      "description": "Extensive reef complex that has the best collection of reefs in Florida"
+      "description": "Extensive reef complex that has the best collection of reefs in Florida",
+      "url": "images/Molasses.jpeg"
     },
     {
       "id": 2,
       "name": "French Reef",
       "price": 86.48,
       "depth": 100,
-      "description": "Reef area with multiple ledges, tunnels, and caves."
+      "description": "Reef area with multiple ledges, tunnels, and caves.",
+      "url": "images/French.jpg"
     },
     {
       "name": "Pickles Reef",
       "price": 54.47,
       "depth": 25,
       "description": "Large and shallow reef with coral formed on pickle barrels.",
-      "id": 3
+      "id": 3,
+      "url": "images/Pickles.jpg"
     },
     {
       "name": "Carysfort Lighthouse",
       "price": 78.45,
       "depth": 80,
       "description": "Wide variety of corals at the oldest functioning lighthouse",
-      "id": 4
+      "id": 4,
+      "url": "images/Craysfort.jpg"
     },
     {
       "name": "Benwood Wreck",
       "price": 78.48,
       "depth": 55,
       "description": "The ship was sunk in 1942, and bioluminescent creatures are at times seen at night. ",
-      "id": 5
+      "id": 5,
+      "url": "images/Benwood.jpg"
     },
     {
-      "name": "a",
-      "price": 84.54,
-      "depth": 65,
-      "description": "lots of fish and coral",
+      "name": "Sombrero Reef ",
+      "price": 75.15,
+      "depth": 30,
+      "description": "Largest coral reef in the Middle Keys",
+      "url": "https://www.starfishsnorkeling.com/wp-content/uploads/2016/10/iStock_62306274_MEDIUM-1030x686.jpg",
       "id": 6
     }
   ],
@@ -134,8 +146,35 @@
       "date": "2022-06-13",
       "certification": 60,
       "comments": "didnt want to go to pickles\n",
-      "completed": false,
+      "completed": true,
       "id": 6
+    },
+    {
+      "userId": 4,
+      "diveSiteId": 3,
+      "date": "2022-06-29",
+      "certification": 130,
+      "comments": "",
+      "completed": false,
+      "id": 7
+    },
+    {
+      "userId": 4,
+      "diveSiteId": 3,
+      "date": "2022-07-06",
+      "certification": 60,
+      "comments": "",
+      "completed": false,
+      "id": 8
+    },
+    {
+      "userId": 7,
+      "diveSiteId": 3,
+      "date": "2022-06-23",
+      "certification": 60,
+      "comments": "",
+      "completed": true,
+      "id": 9
     }
   ],
   "assignedDives": [
@@ -163,6 +202,16 @@
       "guideId": 1,
       "diveRequestId": 3,
       "id": 5
+    },
+    {
+      "guideId": 1,
+      "diveRequestId": 8,
+      "id": 6
+    },
+    {
+      "guideId": 1,
+      "diveRequestId": 9,
+      "id": 7
     }
   ]
 }
