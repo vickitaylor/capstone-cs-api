@@ -5,7 +5,7 @@
       "name": "Ann Chovy",
       "email": "ann@chovy.com",
       "isStaff": false,
-      "skillLevelId": 2
+      "skillLevelId": 1
     },
     {
       "id": 2,
@@ -26,7 +26,7 @@
       "name": "Phish Styx",
       "isStaff": false,
       "id": 4,
-      "skillLevelId": 2
+      "skillLevelId": 3
     },
     {
       "email": "james@pond.com",
@@ -141,7 +141,8 @@
       "comments": "date changed",
       "completed": true,
       "id": 1,
-      "completedComments": "Best Ever! Saw so many parrotfish."
+      "completedComments": "Best Ever! Saw so many parrotfish.",
+      "rating": 4
     },
     {
       "userId": 1,
@@ -151,7 +152,8 @@
       "comments": "",
       "completed": true,
       "id": 2,
-      "completedComments": "Made me feel comfortable jumping off the boat.🚤"
+      "completedComments": "Made me feel comfortable jumping off the boat.🚤",
+      "rating": 5
     },
     {
       "userId": 1,
@@ -161,7 +163,8 @@
       "comments": "",
       "completed": true,
       "id": 3,
-      "completedComments": "Went after a hurricane, vis wasn't that great"
+      "completedComments": "Went after a hurricane, vis wasn't that great",
+      "rating": 3
     },
     {
       "userId": 6,
@@ -171,7 +174,8 @@
       "comments": "Didn't want to go to pickles",
       "completed": true,
       "id": 6,
-      "completedComments": "Very professional and customer oriented. Dives were mesmerizing."
+      "completedComments": "Very professional and customer oriented. Dives were mesmerizing.",
+      "rating": 4
     },
     {
       "userId": 4,
@@ -181,17 +185,8 @@
       "comments": "",
       "completed": true,
       "completedComments": "Loved seeing all the fish.",
-      "id": 7
-    },
-    {
-      "userId": 4,
-      "diveSiteId": 3,
-      "date": "2022-07-06",
-      "certification": 60,
-      "comments": "",
-      "completed": true,
-      "id": 8,
-      "completedComments": "This was our first time going out in much deeper water and we had a blast! "
+      "id": 7,
+      "rating": 4
     },
     {
       "userId": 7,
@@ -201,7 +196,8 @@
       "comments": "",
       "completed": true,
       "id": 9,
-      "completedComments": "So much life around the pickle barrels."
+      "completedComments": "So much life around the pickle barrels. Had a lot of fun.",
+      "rating": 5
     },
     {
       "userId": 6,
@@ -211,7 +207,8 @@
       "comments": "",
       "completed": true,
       "id": 10,
-      "completedComments": "Did you see the guy clinging to the lighthouse?"
+      "completedComments": "Did you see the guy clinging to the lighthouse?",
+      "rating": 5
     },
     {
       "userId": 6,
@@ -219,9 +216,10 @@
       "date": "2022-07-02",
       "certification": 60,
       "comments": "cant make it for this one. ",
-      "completed": false,
+      "completed": true,
+      "completedComments": "Water was choppy, threw up on the boat.",
       "id": 11,
-      "completedComments": ""
+      "rating": 3
     },
     {
       "userId": 7,
@@ -231,7 +229,8 @@
       "comments": "",
       "completed": true,
       "id": 12,
-      "completedComments": "Did you see the people getting married there?"
+      "completedComments": "Did you see the people getting married there?",
+      "rating": 4
     },
     {
       "userId": 3,
@@ -241,7 +240,8 @@
       "comments": "",
       "completed": true,
       "completedComments": "You have to go here and do the night dive.",
-      "id": 13
+      "id": 13,
+      "rating": 4
     },
     {
       "userId": 4,
@@ -251,7 +251,8 @@
       "comments": "",
       "completed": true,
       "completedComments": "So much coral to see.",
-      "id": 14
+      "id": 14,
+      "rating": 5
     },
     {
       "userId": 6,
@@ -259,9 +260,10 @@
       "date": "2022-07-03",
       "certification": 60,
       "comments": "",
-      "completed": false,
+      "completed": true,
+      "completedComments": "Fun dive, saw lots of parrotfish.",
       "id": 17,
-      "completedComments": ""
+      "rating": 4
     },
     {
       "userId": 6,
@@ -270,18 +272,9 @@
       "certification": 130,
       "comments": "",
       "completed": true,
-      "completedComments": "Amazing as always",
-      "id": 18
-    },
-    {
-      "userId": 6,
-      "diveSiteId": 6,
-      "date": "2022-07-06",
-      "certification": 60,
-      "comments": "",
-      "completed": false,
-      "completedComments": "",
-      "id": 19
+      "completedComments": "Too many jelly fish.  Got stung.",
+      "id": 18,
+      "rating": 2
     },
     {
       "userId": 3,
@@ -291,7 +284,8 @@
       "comments": "",
       "completed": true,
       "completedComments": "Had so much fun swimming thru the tunnels.",
-      "id": 20
+      "id": 20,
+      "rating": 4
     },
     {
       "userId": 6,
@@ -299,9 +293,10 @@
       "date": "2022-07-01",
       "certification": 60,
       "comments": "",
-      "completed": false,
-      "completedComments": "",
-      "id": 21
+      "completed": true,
+      "completedComments": "Found a tiger shark and pulled on its tail.  I dont know why it BIT MY ARM.",
+      "id": 21,
+      "rating": 1
     },
     {
       "userId": 7,
@@ -311,17 +306,8 @@
       "comments": "changed the date",
       "completed": false,
       "completedComments": "",
-      "id": 22
-    },
-    {
-      "userId": 7,
-      "diveSiteId": 7,
-      "date": "2022-06-30",
-      "certification": 60,
-      "comments": "",
-      "completed": false,
-      "completedComments": "",
-      "id": 23
+      "id": 22,
+      "rating": 0
     },
     {
       "userId": 3,
@@ -331,7 +317,8 @@
       "comments": "",
       "completed": false,
       "completedComments": "",
-      "id": 24
+      "id": 24,
+      "rating": 0
     },
     {
       "userId": 1,
@@ -341,7 +328,98 @@
       "comments": "",
       "completed": false,
       "completedComments": "",
-      "id": 25
+      "id": 25,
+      "rating": 0
+    },
+    {
+      "userId": 7,
+      "diveSiteId": 5,
+      "date": "2022-07-21",
+      "certification": 130,
+      "comments": "",
+      "completed": false,
+      "completedComments": "",
+      "id": 27
+    },
+    {
+      "userId": 7,
+      "diveSiteId": 4,
+      "date": "2022-07-14",
+      "certification": 60,
+      "comments": "",
+      "completed": false,
+      "completedComments": "",
+      "id": 28
+    },
+    {
+      "userId": 7,
+      "diveSiteId": 1,
+      "date": "2022-07-28",
+      "certification": 130,
+      "comments": "Picked a different location.",
+      "completed": false,
+      "completedComments": "",
+      "id": 29
+    },
+    {
+      "userId": 7,
+      "diveSiteId": 3,
+      "date": "2022-07-20",
+      "certification": 130,
+      "comments": "",
+      "completed": true,
+      "completedComments": "",
+      "id": 30
+    },
+    {
+      "userId": 7,
+      "diveSiteId": 3,
+      "date": "2022-07-06",
+      "certification": "",
+      "comments": "Changed the date. ",
+      "completed": false,
+      "completedComments": "",
+      "id": 31
+    },
+    {
+      "userId": 7,
+      "diveSiteId": 6,
+      "date": "2022-07-27",
+      "certification": 130,
+      "comments": "",
+      "completed": false,
+      "completedComments": "",
+      "id": 32
+    },
+    {
+      "userId": 3,
+      "diveSiteId": 7,
+      "date": "2022-07-17",
+      "certification": 60,
+      "comments": "",
+      "completed": false,
+      "completedComments": "",
+      "id": 33
+    },
+    {
+      "userId": 3,
+      "diveSiteId": 6,
+      "date": "2022-07-18",
+      "certification": 60,
+      "comments": "",
+      "completed": false,
+      "completedComments": "",
+      "id": 34
+    },
+    {
+      "userId": 1,
+      "diveSiteId": 2,
+      "date": "2022-07-30",
+      "certification": 60,
+      "comments": "",
+      "completed": false,
+      "completedComments": "",
+      "id": 35
     }
   ],
   "assignedDives": [
@@ -367,73 +445,98 @@
     },
     {
       "guideId": 1,
-      "diveRequestId": 8,
+      "diveRequestId": 9,
       "id": 6
     },
     {
       "guideId": 1,
-      "diveRequestId": 9,
-      "id": 7
-    },
-    {
-      "guideId": 1,
       "diveRequestId": 10,
-      "id": 8
+      "id": 7
     },
     {
       "guideId": 2,
       "diveRequestId": 11,
-      "id": 9
+      "id": 8
     },
     {
       "guideId": 1,
       "diveRequestId": 12,
-      "id": 10
+      "id": 9
     },
     {
       "guideId": 2,
       "diveRequestId": 20,
-      "id": 12
+      "id": 10
     },
     {
       "guideId": 2,
       "diveRequestId": 14,
-      "id": 13
+      "id": 11
     },
     {
       "guideId": 2,
       "diveRequestId": 18,
-      "id": 14
+      "id": 12
     },
     {
       "guideId": 1,
       "diveRequestId": 13,
-      "id": 15
+      "id": 13
     },
     {
       "guideId": 1,
       "diveRequestId": 7,
-      "id": 16
-    },
-    {
-      "guideId": 1,
-      "diveRequestId": 23,
-      "id": 17
+      "id": 14
     },
     {
       "guideId": 2,
       "diveRequestId": 21,
-      "id": 18
+      "id": 15
     },
     {
       "guideId": 1,
       "diveRequestId": 24,
-      "id": 19
+      "id": 16
+    },
+    {
+      "guideId": 1,
+      "diveRequestId": 17,
+      "id": 17
     },
     {
       "guideId": 2,
-      "diveRequestId": 17,
+      "diveRequestId": 22,
+      "id": 18
+    },
+    {
+      "guideId": 1,
+      "diveRequestId": 25,
+      "id": 19
+    },
+    {
+      "guideId": 1,
+      "diveRequestId": 27,
       "id": 20
+    },
+    {
+      "guideId": 2,
+      "diveRequestId": 28,
+      "id": 22
+    },
+    {
+      "guideId": 2,
+      "diveRequestId": 29,
+      "id": 23
+    },
+    {
+      "guideId": 1,
+      "diveRequestId": 30,
+      "id": 24
+    },
+    {
+      "guideId": 1,
+      "diveRequestId": 32,
+      "id": 25
     }
   ],
   "skillLevels": [
