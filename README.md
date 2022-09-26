@@ -15,7 +15,7 @@ To login with a client account use: bubble@fett.com
 1) Clone the repository ` git clone git@github.com:vickitaylor/capstone-cs-api.git`
 2) cd into the corresponding directory `cd capstone-cs-api`
 3) `json-server database.json -p 8088 -w`
-4) Application for the project located at [APP LINK](https://github.com/vickitaylor/capstone-client-side) with instructions to clone and run
+4) Application for the project located [HERE](https://github.com/vickitaylor/capstone-client-side) with instructions to clone and run
 
 ### Tech Stack
 * HTML
